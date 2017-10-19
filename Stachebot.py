@@ -17,9 +17,9 @@ async def on_message(message):
         tmp = await bot.send_message(message.channel, 'pp')
 
     if re.search("jeff", message.content, flags=0):
-        tmp = await bot.send_message(message.channel, 'HAHAHAHAHA FUNNY MEME')
+        tmp = await bot.send_message(message.channel, 'HAHAHAHAHA FUNNY MEME YO SO JOKE LOL HAHA MA NAEM JEFF')
     if re.search("<@!244933944175362048>", message.content, flags=0):
-        tmp = await bot.send_message(message.channel, 'AY DONT PING MY CREATOR FAGG0T')
+        tmp = await bot.send_message(message.channel, 'AY DONT PING MY CREATOR ASSBUTT!1!')
 
 
     await bot.process_commands(message)
@@ -32,4 +32,4 @@ async def roll():
 
 
 
-bot.run('MzYwMDYwNDQ0MjA5MDUzNjk3.DKVKxw.vKh2jlEbBJBbrhPOZxByvjkL0nw')
+bot.run('<Redacted>')
